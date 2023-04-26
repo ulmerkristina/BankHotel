@@ -1,18 +1,29 @@
+$font-miracle: url(/assets/fonts/Miracle/Miracle-Regular.ttf);
+$font-weight-400: 400;
+$font-weight-700: 700;
+$color-yellow: #FCD043;
+$color-white: #FFFCF6;
+$color-dark-green: #313F387A;
+$color-nordic-green: #1B3B36;
+
 @font-face {
   font-family: "Miracle";
   src: url("/assets/fonts/Miracle/Miracle-Regular.ttf");
 }
+
 @font-face {
   font-family: "Voyage";
   src: url("/assets/fonts/Voyage/Voyage-regular.otf");
 }
+
 @font-face {
   font-weight: 400;
   font-family: Helvetica;
   src: url("/assets/fonts/Helvetica-neue-lt-std/Helvetica-roman.otf");
 }
+
 @font-face {
   font-weight: 700;
   font-family: Helvetica;
   src: url("/assets/fonts/Helvetica-neue-lt-std/Helvetica-bold.otf");
-}/*# sourceMappingURL=style-page-1.css.map */
+}
