@@ -1,2 +1,92 @@
 @import '../vars';
 @import '../mixins';
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1920px;
+  width: 100%;
+}
+
+.best-apartments {
+  background-image: url(/assets/img/img-page-1/img-bedroom-grey.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1080px;
+}
+
+.best-apartments__img {
+  margin-top: 200px;
+}
+
+.best-apartments__title {
+  @extend %major-title;
+  color: $color-yellow;
+  text-transform: capitalize;
+  padding-top: 100px;
+  margin-left: 31px;
+  margin-bottom: 250px;
+  width: 872px;
+}
+
+.best-apartments__text {
+  @extend %middle-elements;
+  color: $color-yellow;
+  text-transform: capitalize;
+  margin-left: 31px;
+  width: 440px;
+}
+
+
+.our-gallery {
+  background-color: $color-nordic-green;
+  height: 2460px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.our-gallery__text-element-left {
+  height: 62px;
+  width: 255px;
+  padding-top: 323px;
+  color: $color-white;
+  @extend%middle-elements;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.our-gallery__logo {
+  height: 107px;
+  width: 150px;
+  padding-top: 323px;
+
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.our-gallery__title {
+  @extend%major-title;
+  color: $color-yellow;
+  margin-top: 50px;
+  grid-area: 2 / 2 / 3 / 3;
+  text-align: center;
+}
+
+.our-gallery__img-bench {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+
+.our-gallery__text-element-center {
+  @extend%text-elements;
+  width: 450px;
+  height: 112px;
+  grid-area: 3 / 2 / 4 / 3;
+  color: $color-white;
+}
+
+
+.our-gallery__img-lobby {
+  width: 600px;
+  height: 400px;
+  grid-area: 3 / 3 / 4 / 4;
+}
