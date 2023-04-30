@@ -23,7 +23,7 @@
   line-height: 130px;
 }
 
-.our-gallery__text-element-center {
+.our-gallery__text-element {
   font-family: Helvetica;
   font-weight: 400;
   font-size: 18px;
@@ -57,7 +57,7 @@
 
 .best-apartments__title {
   color: #FCD043;
-  text-transform: capitalize;
+  text-transform: uppercase;
   padding-top: 100px;
   margin-left: 31px;
   margin-bottom: 250px;
@@ -66,54 +66,141 @@
 
 .best-apartments__text {
   color: #FCD043;
-  text-transform: capitalize;
+  text-transform: uppercase;
   margin-left: 31px;
   width: 440px;
 }
 
 .our-gallery {
-  background-color: #1B3B36;
+  background-color: #313F38;
   height: 2460px;
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: 1fr 1.8fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
 }
 
 .our-gallery__text-element-left {
   height: 62px;
   width: 255px;
+  margin-bottom: 273px;
   padding-top: 323px;
   color: #FFFCF6;
   grid-area: 1/1/2/2;
+  text-transform: uppercase;
+}
+
+.our-gallery__center-section {
+  margin-left: 173px;
+  margin-right: 173px;
+  height: 1424px;
+  width: 950px;
+  justify-self: center;
+  grid-area: 1/2/5/3;
 }
 
 .our-gallery__logo {
   height: 107px;
   width: 150px;
-  padding-top: 323px;
-  grid-area: 1/2/2/3;
+  padding-top: 299.94px;
+  display: block;
+  justify-self: center;
 }
 
 .our-gallery__title {
   color: #FCD043;
-  margin-top: 50px;
-  grid-area: 2/2/3/3;
+  margin-top: 50.17px;
+  margin-bottom: 70px;
+  text-transform: uppercase;
   text-align: center;
 }
 
 .our-gallery__img-bench {
-  grid-area: 3/1/4/2;
+  margin-bottom: 342px;
+  grid-area: 2/1/3/2;
+  width: 312px;
+  height: 284px;
+  margin-left: 0;
 }
 
-.our-gallery__text-element-center {
+.our-gallery__text-element {
   width: 450px;
   height: 112px;
-  grid-area: 3/2/4/3;
+  margin-bottom: 150px;
+  text-align: center;
   color: #FFFCF6;
 }
 
 .our-gallery__img-lobby {
-  width: 600px;
+  width: 312px;
   height: 400px;
+  grid-area: 2/3/3/4;
+}
+
+.our-gallery__fireplace {
+  height: 600px;
+  width: 916px;
+}
+
+.our-gallery__octagon-text {
+  margin-top: 100px;
+  display: flex;
+}
+
+.our-gallery__label-octagon-yellow {
+  margin: 0;
+  height: 50px;
+  width: 50px;
+  align-self: center;
+}
+
+.our-gallery__text-element-near-octagon {
+  margin-left: 30px;
+  font-family: Helvetica;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 26px;
+  color: #FFFCF6;
+  height: 52px;
+  width: 350px;
+  /*display: inline-block;*/
+}
+
+.our-gallery__dining-area {
+  height: 394px;
+  width: 316px;
+  grid-area: 3/1/4/2;
+}
+
+.our-gallery__bathroom-mirror {
+  margin-top: 414px;
   grid-area: 3/3/4/4;
+}
+
+.our-gallery__background-text {
+  font-family: "Miracle";
+  font-size: 120px;
+  font-weight: 400;
+  line-height: 140px;
+  letter-spacing: 0em;
+  text-align: left;
+  grid-area: 4/1/5/4;
+  color: #FFFCF6;
+  position: relative;
+  top: -70px;
+  left: -328px;
+  opacity: 12%;
+  /*font-family: Helvetica;
+  font-size: 120px;
+  font-weight: 300;
+  line-height: 140px;
+  letter-spacing: 0em;
+  text-align: left;*/
+}
+
+/*.our-gallery__background-text-visible {
+  opacity: 100%;
+}*/
+.our-gallery__background-text:nth-child(2) {
+  opacity: 100%;
 }/*# sourceMappingURL=style-page-1.css.map */
