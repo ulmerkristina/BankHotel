@@ -27,14 +27,16 @@ $color-yellow: #FCD043;
 $color-white: #FFFCF6;
 $color-dark-green: #313F38;
 $color-nordic-green: #1B3B36;
-
+$font-Miracle: "Miracle";
+$font-Voyage: "Voyage";
+$font-Helvetica: Helvetica;
 
 
 %major-title {              //вызывается @extend %major-title
   font-family: "Miracle";
   font-weight: 400;
-  font-size: 150px;
-  line-height: 130px;
+  font-size: 9em;         // 150px
+  line-height: 1em;       //130px
 }
 
 %small-title {
