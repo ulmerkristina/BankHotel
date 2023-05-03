@@ -1,11 +1,3 @@
-$font-weight-400: 400;
-$font-weight-700: 700;
-$font-weight-500: 500;
-$color-yellow: #FCD043;
-$color-white: #FFFCF6;
-$color-dark-green: #313F38;
-$color-nordic-green: #1B3B36;
-
 @font-face {
   font-family: "Miracle";
   src: url("/assets/fonts/Miracle/miracle-regular.woff2");
@@ -27,6 +19,16 @@ $color-nordic-green: #1B3B36;
   font-family: Helvetica;
   src: url("/assets/fonts/Helvetica-neue-lt-std/Helvetica-bold.otf");
 }
+
+$font-weight-400: 400;
+$font-weight-700: 700;
+$font-weight-500: 500;
+$color-yellow: #FCD043;
+$color-white: #FFFCF6;
+$color-dark-green: #313F38;
+$color-nordic-green: #1B3B36;
+
+
 
 %major-title {              //вызывается @extend %major-title
   font-family: "Miracle";
